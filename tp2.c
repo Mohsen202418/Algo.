@@ -6,7 +6,7 @@ char *ChargerChaine(int N) {
     char *chaine = (char *)malloc((N + 1) * sizeof(char));
 
     while (1) {
-        printf("Veuillez saisir une chaîne de caractères (max %d caractères):\n", N);
+        printf("Veuillez saisir une chaîne de caractères (max %d caractères):", N);
         scanf(" %[^\n]", chaine); //قراءة النص المدخل 
 
         //حساب طول النص المدخل للتحقق
